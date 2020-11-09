@@ -1,0 +1,30 @@
+// {
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//         "@/*": ["src/*"],
+//         // "assets/*": ["src/assets/*"],
+//         // "common/*": ["@/common"],
+//         // "components/*": ["@/components/*"],
+//         // "network/*": ["@/network/*"],
+//         // "views/*": ["@/views"]
+//     },
+//     "target": "ES6",
+//     "module": "commonjs",
+//     "allowSyntheticDefaultImports": true
+//   },
+//   "include": ["src/**/*"],
+//   "exclude": ["node_modules"]
+// }
+
+{
+  "compilerOptions": {
+    "target": "esnext", // define to your liking
+    "baseUrl": "./",
+    "paths": {
+      "test/*": ["src/actions/test"],
+      "assets/*": ["src/assets"]
+    }
+  },
+  "exclude": ["node_modules"] // Optional
+}
